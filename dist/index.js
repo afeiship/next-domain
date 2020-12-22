@@ -3,7 +3,7 @@
  * description: Get url domain for next.
  * homepage: https://github.com/afeiship/next-domain
  * version: 1.0.0
- * date: 2020-12-23 07:38:21
+ * date: 2020-12-23 07:39:15
  * license: MIT
  */
 
