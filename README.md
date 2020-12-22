@@ -15,7 +15,11 @@ npm install -S @jswork/next-domain
 ```js
 import '@jswork/next-domain';
 
+// normal
 nx.domain('https://www.baidu.com/');  // baidu.com
+
+// 2 level
+nx.domain('http://12345.i.taobao.com', 2);  // taobao.com
 ```
 
 ## license
