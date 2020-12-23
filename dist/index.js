@@ -2,8 +2,8 @@
  * name: @jswork/next-domain
  * description: Get url domain for next.
  * homepage: https://github.com/afeiship/next-domain
- * version: 1.0.0
- * date: 2020-12-23 14:28:37
+ * version: 1.0.1
+ * date: 2020-12-23 14:29:08
  * license: MIT
  */
 
