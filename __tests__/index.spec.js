@@ -19,5 +19,11 @@
       var res = nx.domain(str, 2);
       expect(res).toBe('taobao.com');
     });
+
+    test('nx.domain url with port', function () {
+      var str = 'https://pt.singsound.com:10081/users/sign_in';
+      var res = nx.domain(str);
+      expect(res).toBe('singsound.com');
+    });
   });
 })();

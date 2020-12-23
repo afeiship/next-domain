@@ -5,9 +5,9 @@
 
   nx.domain = function (inString, inLevel) {
     var level = inLevel || 1;
-    var str = inString || location.host;
+    var str = inString || location.href;
     var url = new URL(str);
-    var parts = url.host.split(DOT);
+    var parts = url.hostname.split(DOT);
     return parts.slice(-parts.length + level).join(DOT);
   };
 
