@@ -2,6 +2,11 @@
   require('../src');
 
   describe('api.basic test', () => {
+    test('nx.domain 52doc.com should return baidu.com', function () {
+      var str = 'https://52doc.com';
+      var res = nx.domain(str);
+      expect(res).toBe('52doc.com');
+    });
     test('nx.domain www.baidu.com should return baidu.com', function () {
       var str = 'https://www.baidu.com';
       var res = nx.domain(str);

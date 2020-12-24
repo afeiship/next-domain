@@ -8,7 +8,8 @@
     var str = inString || location.href;
     var url = new URL(str);
     var parts = url.hostname.split(DOT);
-    return parts.slice(-parts.length + level).join(DOT);
+    var target = parts.length === 2 ? parts : parts.slice(-parts.length + level);
+    return target.join(DOT);
   };
 
   if (typeof module !== 'undefined' && module.exports) {
