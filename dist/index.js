@@ -3,12 +3,12 @@
  * description: Get url domain for next.
  * homepage: https://github.com/afeiship/next-domain
  * version: 1.0.2
- * date: 2020-12-24 18:07:19
+ * date: 2021-01-05 14:29:15
  * license: MIT
  */
 
 (function () {
-  var global = global || this || window || Function('return this')();
+  var global = window || global || this || Function('return this')();
   var nx = global.nx || require('@jswork/next');
   var DOT = '.';
 
