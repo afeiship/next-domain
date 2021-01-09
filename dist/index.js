@@ -2,13 +2,17 @@
  * name: @jswork/next-domain
  * description: Get url domain for next.
  * homepage: https://github.com/afeiship/next-domain
- * version: 1.0.2
- * date: 2020-12-24 18:07:19
+ * version: 1.0.4
+ * date: 2021-01-06 09:31:41
  * license: MIT
  */
 
 (function () {
+<<<<<<< HEAD
   var global = typeof window !== 'undefined' ? window : this || Function('return this')();
+=======
+  var global = global || window || Function('return this')();
+>>>>>>> 275572a50de095bdb68ef4972903aa542f3f2418
   var nx = global.nx || require('@jswork/next');
   var DOT = '.';
 
